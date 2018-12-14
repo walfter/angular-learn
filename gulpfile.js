@@ -6,7 +6,3 @@ gulp.task("js-rigger", function() {
         .pipe(rigger())
         .pipe(gulp.dest("app/assets/js/"));
 });
-
-gulp.task("test", () => {
-   return "fff";
-});
